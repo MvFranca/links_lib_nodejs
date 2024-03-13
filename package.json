@@ -1,0 +1,19 @@
+{
+  "name": "node_md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/cli.js",
+    "start:valida": "node ./src/cli.js ./arquivos/ --valida"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module"
+}
